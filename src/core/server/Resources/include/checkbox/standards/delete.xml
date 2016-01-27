@@ -7,6 +7,14 @@
       <identifier>remap.delete2backquote</identifier>
       <autogen>__KeyToKey__ KeyCode::DELETE, KeyCode::BACKQUOTE</autogen>
     </item>
+    <root>
+      <item>
+        <name>Delete to Backquote(`)</name>
+        <appendix>(Fn+Delete to Backquote(`))</appendix>
+        <identifier>remap.delete2backquote_fnDelete2backquote</identifier>
+        <autogen>__KeyToKey__ KeyCode::DELETE, ModifierFlag::FN, KeyCode::BACKQUOTE</autogen>
+      </item>
+    </root>
     <item>
       <name>Delete to Backslash(\)</name>
       <identifier>remap.delete2backslash</identifier>
